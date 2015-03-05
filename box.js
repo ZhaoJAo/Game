@@ -11,6 +11,7 @@ pc.script.create('box', function (app) {
     Box.prototype = {
         // Called once after all resources are loaded and before the first update
         initialize: function () {
+            alert("test");
         },
 
         // Called every frame, dt is time in seconds since last update
